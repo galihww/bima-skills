@@ -19,13 +19,15 @@ Setiap skill bisa dipakai sendiri. Jika semuanya terpasang, `bima-full` akan mem
 
 ## Cara 1: Pasang di claude.ai (web, desktop, atau ponsel)
 
-1. Buka halaman [Releases](https://github.com/galihww/bima-skills/releases/latest) dan unduh ZIP skill yang dibutuhkan, misalnya `bima-full.zip`. Disarankan unduh keenamnya.
-2. Di claude.ai, buka **Settings > Capabilities**. Pastikan **Code execution and file creation** aktif, karena skill memerlukannya.
-3. Di bagian **Skills**, klik **Upload skill**, lalu pilih satu file ZIP. Ulangi untuk setiap ZIP. Jangan mengekstrak ZIP lebih dulu.
+1. Buka halaman [Releases](https://github.com/galihww/bima-skills/releases/latest) dan unduh ZIP skill yang dibutuhkan, misalnya `bima-full.zip`. Disarankan unduh keenamnya. Jangan mengekstrak ZIP.
+2. Di claude.ai, buka **Settings > Capabilities**. Pastikan **Code execution and file creation** aktif (pada tampilan baru bernama **Create and edit files**), karena skill memerlukannya.
+3. Buka **Customize > Skills**, klik tombol **+**, pilih **+ Create skill**, lalu **Upload a skill**. Pilih satu file ZIP. Ulangi untuk setiap ZIP.
 4. Pastikan setiap skill dalam keadaan aktif (toggle menyala).
-5. Mulai percakapan baru, lalu minta misalnya: *"Bantu saya menyusun proposal Penelitian Dasar BIMA 2026 tentang ..."*. Claude akan memakai skill yang cocok secara otomatis.
+5. Mulai percakapan baru, lalu minta misalnya: *"Bantu saya menyusun proposal Penelitian Dasar BIMA 2026 tentang ..."*. Claude akan memakai skill yang cocok secara otomatis. Jika belum, sebut nama skillnya, misalnya *"Pakai skill bima-full ..."*.
 
-Catatan: fitur Skills tersedia untuk paket Pro, Max, Team, dan Enterprise. Pada paket Team dan Enterprise, admin organisasi mungkin perlu mengaktifkan Skills lebih dulu. Letak menu bisa sedikit berbeda jika tampilan claude.ai diperbarui.
+Untuk memperbarui ke versi baru: di **Customize > Skills**, buka skill lama, matikan toggle-nya, klik **…** > **Delete**, lalu unggah ZIP versi baru.
+
+Catatan: menurut [bantuan resmi Claude](https://support.claude.com/en/articles/12512180), Skills tersedia untuk paket Free, Pro, Max, Team, dan Enterprise. Akun gratis bisa memakainya, tetapi batas pemakaiannya lebih ketat untuk pekerjaan panjang seperti menyusun proposal. Pada paket Team dan Enterprise, admin organisasi mungkin perlu mengaktifkan code execution dan Skills di **Organization settings > Plugins & skills**. Letak menu bisa sedikit berbeda jika tampilan claude.ai diperbarui.
 
 ## Cara 2: Pasang sebagai plugin Claude Code
 
