@@ -60,7 +60,7 @@ Jika Panduan atau SBM yang lebih baru tersedia, skill akan membacanya dan memaka
 ## Untuk pengelola repositori
 
 - Sumber skill ada di `skills/<nama>/SKILL.md`. Daftar plugin ada di `.claude-plugin/marketplace.json`.
-- Untuk menerbitkan ZIP baru, buat tag versi, misalnya `git tag v1.1.0 && git push origin v1.1.0`. GitHub Actions akan membuat ZIP per skill dan melampirkannya ke Release. ZIP juga bisa dibuat lokal dengan `./scripts/build-zips.sh`.
+- Untuk menerbitkan ZIP baru, buat Release baru di GitHub (Releases > Draft a new release) dengan tag versi, misalnya `v1.1.0`, atau dorong tag itu dengan `git push origin v1.1.0`. GitHub Actions akan membuat ZIP per skill dan melampirkannya ke Release. ZIP juga bisa dibuat lokal dengan `./scripts/build-zips.sh`.
 
 ## Lisensi
 
