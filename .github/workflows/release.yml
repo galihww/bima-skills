@@ -1,12 +1,8 @@
 name: Rilis ZIP skill
 
 on:
-  push:
-    tags:
-      - "v*"
   release:
     types: [published]
-  workflow_dispatch:
 
 permissions:
   contents: write
@@ -22,4 +18,4 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: dist/*.zip
-          tag_name: ${{ github.event.release.tag_name || github.ref_name }}
+          tag_name: ${{ github.event.release.tag_name }}
