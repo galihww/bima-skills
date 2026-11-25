@@ -1,0 +1,26 @@
+{
+  "name": "bima-skills",
+  "owner": {
+    "name": "galihww"
+  },
+  "metadata": {
+    "description": "Skill Claude untuk menyusun proposal penelitian BIMA Kemdiktisaintek (Panduan 2026), skema Dasar dan Terapan, untuk dosen semua disiplin.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "bima",
+      "description": "Enam skill penyusunan proposal BIMA: alur lengkap, draf isian A–H, bidang strategis, anggaran (RAB), rekam jejak SINTA, dan review.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/bima-full",
+        "./skills/bima-draf",
+        "./skills/bima-bidang-strategis",
+        "./skills/bima-anggaran",
+        "./skills/bima-rekam-jejak",
+        "./skills/bima-review"
+      ]
+    }
+  ]
+}
