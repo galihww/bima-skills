@@ -19,7 +19,7 @@ Setiap skill bisa dipakai sendiri. Jika semuanya terpasang, `bima-full` akan mem
 
 ## Cara 1: Pasang di claude.ai (web, desktop, atau ponsel)
 
-1. Buka halaman [Releases](../../releases/latest) dan unduh ZIP skill yang dibutuhkan, misalnya `bima-full.zip`. Disarankan unduh keenamnya.
+1. Buka halaman [Releases](https://github.com/galihww/bima-skills/releases/latest) dan unduh ZIP skill yang dibutuhkan, misalnya `bima-full.zip`. Disarankan unduh keenamnya.
 2. Di claude.ai, buka **Settings > Capabilities**. Pastikan **Code execution and file creation** aktif, karena skill memerlukannya.
 3. Di bagian **Skills**, klik **Upload skill**, lalu pilih satu file ZIP. Ulangi untuk setiap ZIP. Jangan mengekstrak ZIP lebih dulu.
 4. Pastikan setiap skill dalam keadaan aktif (toggle menyala).
