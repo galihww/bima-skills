@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Skill Claude untuk menyusun proposal penelitian BIMA Kemdiktisaintek (Panduan 2026), skema Dasar dan Terapan, untuk dosen semua disiplin.",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
@@ -14,12 +14,12 @@
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/bima-full",
-        "./skills/bima-draf",
-        "./skills/bima-bidang-strategis",
-        "./skills/bima-anggaran",
-        "./skills/bima-rekam-jejak",
-        "./skills/bima-review"
+        "./claude/skills/bima-full",
+        "./claude/skills/bima-draf",
+        "./claude/skills/bima-bidang-strategis",
+        "./claude/skills/bima-anggaran",
+        "./claude/skills/bima-rekam-jejak",
+        "./claude/skills/bima-review"
       ]
     }
   ]
